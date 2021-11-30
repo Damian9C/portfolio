@@ -1,0 +1,80 @@
+/*
+    Bebas Neue
+*/
+
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+.BebasNeue {
+    font-family: 'BebasNeue', serif;
+}
+
+
+/*
+    Monserrat
+*/
+
+
+@font-face {
+    font-family: Monserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+.Monserrat{
+    font-family: Monserrat, serif;
+}
+
+@font-face {
+    font-family: Monserrat-light;
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+.Monserrat-light{
+    font-family: Monserrat-light, serif;
+}
+
+@font-face {
+    font-family: Monserrat-SemiBold;
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+.Monserrat-SemiBold{
+    font-family: Monserrat-SemiBold, serif;
+}
+
+
+/*
+    Roboto
+*/
+
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.Roboto {
+    font-family: Roboto, serif;
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+.Roboto-Thin {
+    font-family: Roboto-Thin, serif;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+.Roboto {
+    font-family: Roboto-Bold, serif;
+}
+
