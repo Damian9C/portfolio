@@ -28,21 +28,39 @@
 }
 
 @font-face {
-    font-family: Monserrat-light;
-    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+    font-family: Monserrat-Medium;
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
-.Monserrat-light{
-    font-family: Monserrat-light, serif;
+.Montserrat-Medium{
+    font-family: Montserrat-Medium, serif;
 }
 
 @font-face {
-    font-family: Monserrat-SemiBold;
+    font-family: Montserrat-SemiBold;
     src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
 }
 
-.Monserrat-SemiBold{
-    font-family: Monserrat-SemiBold, serif;
+.Montserrat-SemiBold{
+    font-family: Montserrat-SemiBold, serif;
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+.Montserrat-Bold{
+    font-family: Montserrat-Bold, serif;
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+.Montserrat-Black{
+    font-family: Montserrat-Black, serif;
 }
 
 

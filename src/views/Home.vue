@@ -1,17 +1,18 @@
 <template>
   <h1 class="Roboto-Bold">
-    Hola
+
+    El HOME MAMALON
   </h1>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
 
+  import NavBar from "../layouts/navBar";
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      NavBar
     },
   }
 </script>
