@@ -112,7 +112,7 @@ export default {
 }
 
 .app-font-content{
-  color: #343434;
+  color: #3d3d3d;
 }
 
 </style>
