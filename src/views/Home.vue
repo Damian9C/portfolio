@@ -1,7 +1,7 @@
 <template>
   <h1 class="Roboto-Bold">
 
-    El HOME MAMALON
+    El HOME
   </h1>
 </template>
 

@@ -5,7 +5,7 @@
         <div class="d-flex flex-column">
           <span class="app-logo-title">
             Damian Chavez<br/>
-            <span class="Monserrat">
+            <span class="v-app-bar-subTitle Monserrat">
               Desarrollador web
             </span>
           </span>
@@ -15,7 +15,14 @@
       <v-list>
         <v-divider />
 
-        <v-list-item v-for="(item, i) of menuLinks" :key="i" link @click="scrollToSection(item.route)">
+        <v-list-item
+            v-for="(item, i) of menuLinks"
+            :key="i"
+            link
+            color="#3d3d3d"
+            @click="scrollToSection(item.route)"
+            class="Montserrat-Medium"
+        >
           <v-list-item-content>
             <v-list-item-title class="app-font-size">
               {{ item.title }}
@@ -25,27 +32,31 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar elevation="3" fixed class="app-bar-style " color="white" app>
-      <div class="v-app-bar-title Montserrat-SemiBold">
-        Damian Chavez<br/>
-        <span class="Monserrat">
-          Desarrollador web
-        </span>
-      </div>
+    <v-app-bar
+        elevation="0"
+        fixed
+        class="app-bar-style "
+        dense
+        color="white"
+        app
+    >
       <v-spacer/>
-
-      <div class="app-font-content d-none d-md-flex Montserrat-Bold">
+      <div
+          class="app-font-content d-none d-md-flex Montserrat-Bold"
+          v-for="(item, j) of menuLinks" :key="j"
+      >
+        <v-spacer/>
         <v-btn
-            v-for="(item, j) of menuLinks" :key="j"
             text
             small
             :ripple="false"
-            color="grey"
+            color="#3d3d3d"
             @click="scrollToSection(item.route)"
         >
           {{ item.title }}
         </v-btn>
       </div>
+      <v-spacer/>
 
       <div class="d-flex d-md-none">
         <v-btn icon @click="openDrawer">
@@ -99,12 +110,15 @@ export default {
 
 <style scoped>
 
-.v-app-bar-title{
-  letter-spacing: .2mm;
+.app-logo-title{
+  font-size: 18px;
+  letter-spacing: .7mm;
+  color: #3d3d3d;
 }
 
-.v-app-bar-title span{
-  font-size: 14px;
+.v-app-bar-subTitle{
+  letter-spacing: .4mm;
+  font-size: 12px;
 }
 
 .app-font-size {
